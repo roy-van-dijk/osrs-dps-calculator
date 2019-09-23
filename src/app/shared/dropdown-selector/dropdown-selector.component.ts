@@ -13,7 +13,7 @@ export class DropdownSelectorComponent implements OnInit, AfterViewInit {
     @Output() itemClicked = new EventEmitter();
 
     private items;
-    private shownItems;
+    public shownItems;
     private dropdown;
     private disabledKeys = ['ArrowDown', 'ArrowUp', 'Enter', 'Escape'];
     private selectedItem;
@@ -45,7 +45,7 @@ export class DropdownSelectorComponent implements OnInit, AfterViewInit {
     }
 
 
-    private searchBoxKeyUp(event) {
+    public searchBoxKeyUp(event) {
         event.preventDefault();
         if (!this.disabledKeys.includes(event.key)) {
             this.searchItems(event);
@@ -71,12 +71,12 @@ export class DropdownSelectorComponent implements OnInit, AfterViewInit {
         this.selectCurrentDropdownItem();
     }
 
-    private selectCurrentDropdownItem() {
+    public selectCurrentDropdownItem() {
         this.itemClicked.emit(this.selectedItem);
         this.close();
     }
 
-    private selectPrevDropdownItem() {
+    public selectPrevDropdownItem() {
         for (let i = 0; i < this.shownItems.length; i++) {
             if (this.shownItems[i] === this.selectedItem && i > 0) {
                 this.selectedItem = this.shownItems[i-1];
@@ -85,7 +85,7 @@ export class DropdownSelectorComponent implements OnInit, AfterViewInit {
         }
     }
 
-    private selectNextDropdownItem() {
+    public selectNextDropdownItem() {
         for (let i = 0; i < this.shownItems.length; i++) {
             if (this.shownItems[i] === this.selectedItem && i < (this.shownItems.length - 1)) {
                 this.selectedItem = this.shownItems[i+1];

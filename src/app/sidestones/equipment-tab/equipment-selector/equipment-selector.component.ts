@@ -9,12 +9,12 @@ import { DropdownSelectorComponent } from 'src/app/shared/dropdown-selector/drop
 })
 export class EquipmentSelectorComponent implements OnInit {
     
-    private objectKeys = Object.keys;
-    private selectableItems = [];
-    private selectedGearType: string;
+    public objectKeys = Object.keys;
+    public selectableItems = [];
+    public selectedGearType: string;
     @ViewChild(DropdownSelectorComponent) dropdown;
 
-    constructor(private equipmentService: EquipmentService) { }
+    constructor(public equipmentService: EquipmentService) { }
     
     ngOnInit() {    
     }
@@ -30,8 +30,7 @@ export class EquipmentSelectorComponent implements OnInit {
         this.selectedGearType = gearType;
     }
 
-    private equip(item) { 
-        console.log(item);
+    public equip(item) { 
         this.equipmentService.equip(item, this.selectedGearType);
     }
 

@@ -8,7 +8,7 @@ import { EquipmentService } from 'src/app/shared/services/equipment.service';
 })
 export class EquipmentBonusesComponent implements OnInit {
     
-    constructor(private equipmentService: EquipmentService) { }
+    constructor(public equipmentService: EquipmentService) { }
     
     ngOnInit() {
     }

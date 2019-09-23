@@ -8,9 +8,9 @@ import { StatService } from 'src/app/shared/services/stat.service';
 })
 export class StatsTabComponent implements OnInit {
 
-    private objectKeys = Object.keys;
+    public objectKeys = Object.keys;
     
-    constructor(private statService: StatService) {
+    constructor(public statService: StatService) {
     }
     
     ngOnInit() {

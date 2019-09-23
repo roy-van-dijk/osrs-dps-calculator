@@ -8,17 +8,17 @@ import { SpellService } from 'src/app/shared/services/spell.service';
 })
 export class SpellbookTabComponent implements OnInit {
 
-    private objectKeys = Object.keys;
-    private spellbook: string = 'normals';
-    private hoveredSpell = null;
+    public objectKeys = Object.keys;
+    public spellbook: string = 'normals';
+    public hoveredSpell = null;
     private spellInfoTop = false;
     
-    constructor(private spellService: SpellService, private elem: ElementRef) { }
+    constructor(public spellService: SpellService, private elem: ElementRef) { }
     
     ngOnInit() {
     }
 
-    private activateSpell(spell) {
+    public activateSpell(spell) {
         if (this.spellService.activeSpell === spell) {
             this.spellService.activeSpell = null;
         } else {
@@ -26,11 +26,11 @@ export class SpellbookTabComponent implements OnInit {
         }
     }
 
-    private unhoverSpell() {
+    public unhoverSpell() {
         this.hoveredSpell = null;
     }
 
-    private hoverSpell(spell, event) {
+    public hoverSpell(spell, event) {
         let rect = this.elem.nativeElement.querySelector('#spells-wrapper').getBoundingClientRect();
         let y = event.clientY - rect.top;
         if (y > (rect.height / 2)) {
@@ -41,7 +41,7 @@ export class SpellbookTabComponent implements OnInit {
         this.hoveredSpell = spell;
     }
 
-    private swapSpellbook() {
+    public swapSpellbook() {
         if (this.spellbook === 'normals') {
             this.spellbook = 'ancients';
         } else {

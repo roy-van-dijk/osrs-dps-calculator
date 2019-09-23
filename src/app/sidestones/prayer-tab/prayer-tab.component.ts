@@ -8,9 +8,9 @@ import { PrayerService } from 'src/app/shared/services/prayer.service';
 })
 export class PrayerTabComponent implements OnInit {
 
-    private objectKeys = Object.keys;
+    public objectKeys = Object.keys;
     
-    constructor(private prayerService: PrayerService) { }
+    constructor(public prayerService: PrayerService) { }
     
     ngOnInit() {
     }

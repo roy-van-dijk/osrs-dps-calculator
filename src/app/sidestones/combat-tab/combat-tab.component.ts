@@ -8,11 +8,11 @@ import { EquipmentService } from 'src/app/shared/services/equipment.service';
 })
 export class CombatTabComponent implements OnInit {
 
-    private objectKeys = Object.keys;
+    public objectKeys = Object.keys;
     
-    private availableCombatStyles;
+    public availableCombatStyles;
     
-    constructor(private equipmentService: EquipmentService) { }
+    constructor(public equipmentService: EquipmentService) { }
     
     ngOnInit() {
         this.availableCombatStyles = this.equipmentService.weaponTypes[this.equipmentService.gear.weapon_slot.weapon_category];

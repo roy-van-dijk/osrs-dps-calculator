@@ -1,0 +1,41 @@
+<div id="spells-wrapper">
+    <div class="spells">
+        <button 
+            *ngFor="let spell of spellService.spells[spellbook]"
+            [ngStyle]="{'background-image': 'url(../../assets/spells/' + spell.image + ')'}"
+            [ngClass]="{'active': spell === spellService.activeSpell}"
+            (click)="activateSpell(spell)"
+            (mouseenter)="hoverSpell(spell, $event)"
+            (mouseleave)="unhoverSpell()"
+            class="spell">
+        </button>
+        <button
+            class="spell"
+            [ngStyle]="{'background-image': 'url(../../assets/icons/Spellbook_Swap.png)'}"
+            (click)="swapSpellbook()">
+        </button>
+    
+    </div>
+    <div *ngIf="hoveredSpell !== null" class="spell-info" [ngClass]="{'top': spellInfoTop}">
+        <div class="title">
+            Level {{ hoveredSpell.level }}: {{ hoveredSpell.name }}
+        </div>
+        <div class="base-max">
+            Base max hit: {{ hoveredSpell.damage }}
+        </div>
+        <div class="runes">
+            <div 
+                class="entry"
+                *ngFor="let rune of objectKeys(hoveredSpell.runes)">
+                <div 
+                    class="rune"
+                    [ngStyle]="{'background-image': 'url(../../assets/runes/' + spellService.runes[rune].image + ')'}">
+                </div>
+                <span class="quantity">{{ hoveredSpell.runes[rune] }}</span>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+

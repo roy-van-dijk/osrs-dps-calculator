@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <div *ngFor="let stat of objectKeys(statService.stats)" class="stat">
+        <img src="{{ '../../assets/icons/' + statService.stats[stat].image }}" alt="">
+        <input type="text" class="current" size="3">
+        <span class="slash"><div></div></span>
+        <input type="text" class="boosted" size="3">
+    </div>
+</div>

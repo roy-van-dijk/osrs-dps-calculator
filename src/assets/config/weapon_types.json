@@ -1,0 +1,120 @@
+{
+    "axe": {
+        "chop": {
+            "type": "slash",
+            "style": "accurate",
+            "xp": "attack",
+            "image": ""
+        },
+        "hack": {
+            "type": "slash",
+            "style": "aggressive",
+            "xp": "strength",
+            "image": ""
+        },
+        "smash": {
+            "type": "crush",
+            "style": "aggressive",
+            "xp": "strength",
+            "image": ""
+        },
+        "block": {
+            "type": "slash",
+            "style": "defensive",
+            "xp": "defence",
+            "image": ""
+        }
+    },
+    "scythe": {
+        "reap": {
+            "type": "slash",
+            "style": "accurate",
+            "xp": "attack",
+            "image": "assets/combat_styles/scythe_reap.png"
+        },
+        "chop": {
+            "type": "slash",
+            "style": "aggressive",
+            "xp": "strength",
+            "image": "assets/combat_styles/scythe_chop.png"
+        },
+        "jab": {
+            "type": "crush",
+            "style": "aggressive",
+            "xp": "strength",
+            "image": "assets/combat_styles/scythe_jab.png"
+        },
+        "block": {
+            "type": "slash",
+            "style": "defensive",
+            "xp": "defence",
+            "image": "assets/combat_styles/scythe_block.png"
+        }
+    },
+    "stabbing_sword": {
+        "stab": {
+            "type": "stab",
+            "style": "accurate",
+            "xp": "attack",
+            "image": "assets/combat_styles/stabbing_sword_stab.png"
+        },
+        "lunge": {
+            "type": "stab",
+            "style": "aggressive",
+            "xp": "strength",
+            "image": "assets/combat_styles/stabbing_sword_lunge.png"
+        },
+        "slash": {
+            "type": "slash",
+            "style": "aggressive",
+            "xp": "strength",
+            "image": "assets/combat_styles/stabbing_sword_slash.png"
+        },
+        "block": {
+            "type": "stab",
+            "style": "defensive",
+            "xp": "defence",
+            "image": "assets/combat_styles/stabbing_sword_block.png"
+        }
+    },
+    "whip": {
+        "flick": {
+            "type": "slash",
+            "style": "accurate",
+            "xp": "attack",
+            "image": "assets/combat_styles/whip_flick.png"
+        },
+        "lash": {
+            "type": "slash",
+            "style": "controlled",
+            "xp": "shared",
+            "image": "assets/combat_styles/whip_lash.png"
+        },
+        "deflect": {
+            "type": "slash",
+            "style": "defensive",
+            "xp": "defence",
+            "image": "assets/combat_styles/whip_deflect.png"
+        }
+    },
+    "unarmed": {
+        "punch": {
+            "type": "crush",
+            "style": "accurate",
+            "xp": "attack",
+            "image": "assets/combat_styles/unarmed_punch.png"
+        },
+        "kick": {
+            "type": "crush",
+            "style": "aggressive",
+            "xp": "strength",
+            "image": "assets/combat_styles/unarmed_kick.png"
+        },
+        "block": {
+            "type": "crush",
+            "style": "defensive",
+            "xp": "defence",
+            "image": "assets/combat_styles/unarmed_block.png"
+        }
+    }
+}

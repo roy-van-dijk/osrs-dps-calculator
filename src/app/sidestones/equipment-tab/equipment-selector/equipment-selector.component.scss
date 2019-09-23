@@ -1,0 +1,108 @@
+.equipment {
+    /* max-width: 200px; */
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0px auto;
+}
+.equipment > * {
+    width: 72px;
+    height: 72px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0px auto;
+    background-image: url('../../../../assets/icons/equipment_slot_background.png');
+    overflow: hidden;
+    position: relative;
+    border: none;
+    
+}
+.equipment > * .image {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: scale(2);
+    background-color: transparent;
+    cursor: pointer;
+}
+[class*="_slot"]:not(.blank_slot) {
+    // box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+.head_slot { 
+    grid-column: span 3;
+}
+.legs_slot { 
+    grid-column: span 3;
+}
+#item-selector {
+    width: 100%;
+    max-width: 300px;
+    z-index: 999;
+    background-color: #5f5445;
+    overflow: hidden;
+    max-height: 200px;
+    overflow-y: scroll;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5), inset 0px 0px 5px rgba(0,0,0,0.5);
+    margin-top: 10px;
+    position: absolute;
+    padding: 3px;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: top left;
+    transition: transform 0.1s, opacity 0.3s;
+    border: 1px solid black;
+    outline: 1px solid #5f5445;
+
+    .search-box {
+        border: 1px solid black;
+        margin: 3px;
+
+        #item-search {
+            display: block;
+            background-color: #e2dbc8;
+            font-size: 30px;
+            text-indent: 5px;
+            color: #f38a2f;
+            border: none;
+            font-family: 'Runescape UF';
+            width: 100%;
+        }
+    }
+
+    &.open {
+        transform: scale(1);
+        opacity: 1;
+    }
+    .item {
+        cursor: pointer;
+        padding: 2px;
+        user-select: none;
+        color: #f38a2f;
+
+        &:hover, &.active {
+            color: #feff00;
+        }
+        .name {
+            font-family: 'Runescape UF';
+            text-shadow: 1px 1px 0px black;
+            margin-left: 5px;
+            display: inline-block;
+            font-size: 30px;
+            line-height: 30px;
+            vertical-align: middle;
+        }
+        .image {
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            vertical-align: middle;
+        }
+    }
+}

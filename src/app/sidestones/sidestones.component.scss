@@ -1,0 +1,52 @@
+.sidestones-wrapper {
+    max-width: 320px;
+}
+.sidestones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    .sidestone {
+        margin: 0px 1px;
+        border-radius: 10px;
+        display: inline-block;
+        background-color:#5f5445;
+        background-image: linear-gradient(#96846d, #5f5445);
+        border: 2px solid #313131;
+        overflow: hidden;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+        cursor: pointer;
+
+        &.active span {
+            background-color: #6d170b;
+        }
+
+        span {
+            padding: 30px 25px;
+            width: 50px;
+            height: 50px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 40px 40px;
+
+            &.combat { background-image: url('../../assets/icons/Combat.png'); }
+            &.stats { background-image: url('../../assets/icons/Stats.png'); }
+            &.equipment { background-image: url('../../assets/icons/Worn_equipment.png'); }
+            &.prayer { background-image: url('../../assets/icons/Prayer.png'); }
+            &.spellbook { background-image: url('../../assets/icons/Spellbook.png'); }
+        }
+    }
+}
+
+.sidestone-tab-wrapper {
+    margin-top: 5px;
+    max-width: 320px;
+    height: 445px;
+    padding: 10px;
+    background-image: linear-gradient(#756755, #5f5445);
+    // background-color: #5f5445;
+    border: 5px solid #a79377;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+}

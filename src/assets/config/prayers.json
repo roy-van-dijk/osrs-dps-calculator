@@ -1,0 +1,307 @@
+[
+    {
+        "name": "Thick Skin",
+        "image": "Thick_Skin.png",
+        "categories": [ 
+            "defensive"
+        ],
+        "boosts": {
+            "defence": 5
+        }
+    },
+    {
+        "name": "Burst of Strength",
+        "image": "Burst_of_Strength.png",
+        "categories": [ 
+            "offensive-strength"
+        ],
+        "boosts": {
+            "strength": 5
+        }
+    },
+    {
+        "name": "Clarity of Thought",
+        "image": "Clarity_of_Thought.png",
+        "categories": [ 
+            "offensive-attack"
+        ],
+        "boosts": {
+            "attack": 5
+        }
+    },
+    {
+        "name": "Sharp Eye",
+        "image": "Sharp_Eye.png",
+        "categories": [ 
+            "offensive-ranged",
+            "offensive-attack",
+            "offensive-strength"
+        ],
+        "boosts": {
+            "ranged": 5
+        }
+    },
+    {
+        "name": "Mystic Will",
+        "image": "Mystic_Will.png",
+        "categories": [ 
+            "offensive-magic",
+            "offensive-attack",
+            "offensive-strength"
+        ],
+        "boosts": {
+            "magic": 5
+        }
+    },
+    {
+        "name": "Rock Skin",
+        "image": "Rock_Skin.png",
+        "categories": [
+            "defensive"
+        ],
+        "boosts": {
+            "defence": 10
+        }
+    },
+    {
+        "name": "Superhuman Strength",
+        "image": "Superhuman_Strength.png",
+        "categories": [ 
+            "offensive-strength"
+        ],
+        "boosts": {
+            "strength": 10
+        }
+    },
+    {
+        "name": "Improved Reflexes",
+        "image": "Improved_Reflexes.png",
+        "categories": [
+            "offensive-attack"
+        ],
+        "boosts": {
+            "attack": 10
+        }
+    },
+    {
+        "name": "Rapid Restore",
+        "image": "Rapid_Restore.png",
+        "categories": [ 
+            "other1"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Rapid Heal",
+        "image": "Rapid_Heal.png",
+        "categories": [ 
+            "other2"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Protect Item",
+        "image": "Protect_Item.png",
+        "categories": [ 
+            "other3"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Hawk Eye",
+        "image": "Hawk_Eye.png",
+        "categories": [
+            "offensive-ranged",
+            "offensive-attack",
+            "offensive-strength"
+        ],
+        "boosts": {
+            "ranged": 10
+        }
+    },
+    {
+        "name": "Mystic Lore",
+        "image": "Mystic_Lore.png",
+        "categories": [
+            "offensive-magic",
+            "offensive-attack",
+            "offensive-strength"
+        ],
+        "boosts": {
+            "magic": 10
+        }
+    },
+    {
+        "name": "Steel Skin",
+        "image": "Steel_Skin.png",
+        "categories": [
+            "defensive"
+        ],
+        "boosts": {
+            "defence": 15
+        }
+    },
+    {
+        "name": "Ultimate Strength",
+        "image": "Ultimate_Strength.png",
+        "categories": [
+             "offensive-strength"
+        ],
+        "boosts": {
+            "strength": 15
+        }
+    },
+    {
+        "name": "Incredible Reflexes",
+        "image": "Incredible_Reflexes.png",
+        "categories": [
+            "offensive-attack"
+        ],
+        "boosts": {
+            "attack": "15"
+        }
+    },
+    {
+        "name": "Protect from Magic",
+        "image": "Protect_from_Magic.png",
+        "categories": [
+            "overhead"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Protect from Missiles",
+        "image": "Protect_from_Missiles.png",
+        "categories": [ 
+            "overhead"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Protect from Melee",
+        "image": "Protect_from_Melee.png",
+        "categories": [
+            "overhead"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Eagle Eye",
+        "image": "Eagle_Eye.png",
+        "categories": [
+            "offensive-ranged",
+            "offensive-attack",
+            "offensive-strength"
+        ],
+        "boosts": {
+            "ranged": "15"
+        }
+    },
+    {
+        "name": "Mystic Might",
+        "image": "Mystic_Might.png",
+        "categories": [
+            "offensive-magic",
+            "offensive-attack",
+            "offensive-strength"
+        ],
+        "boosts": {
+            "magic": "15"
+        }
+    },
+    {
+        "name": "Retribution",
+        "image": "Retribution.png",
+        "categories": [
+            "overhead"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Redemption",
+        "image": "Redemption.png",
+        "categories": [
+            "overhead"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Smite",
+        "image": "Smite.png",
+        "categories": [ 
+            "overhead"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Preserve",
+        "image": "Preserve.png",
+        "categories": [ 
+            "other4"
+        ],
+        "boosts": {}
+    },
+    {
+        "name": "Chivalry",
+        "image": "Chivalry.png",
+        "categories": [
+            "defensive",
+            "offensive-attack",
+            "offensive-strength",
+            "offensive-ranged",
+            "offensive-magic"
+        ],
+        "boosts": {
+            "attack": "15",
+            "strength": "18",
+            "defence": "20"
+        }
+    },
+    {
+        "name": "Piety",
+        "image": "Piety.png",
+        "categories": [
+            "defensive",
+            "offensive-attack",
+            "offensive-strength",
+            "offensive-ranged",
+            "offensive-magic"
+        ],
+        "boosts": {
+            "attack": "20",
+            "strength": "23",
+            "defence": "25"
+        }
+    },
+    {
+        "name": "Rigour",
+        "image": "Rigour.png",
+        "categories": [
+            "defensive",
+            "offensive-attack",
+            "offensive-strength",
+            "offensive-ranged",
+            "offensive-magic"
+        ],
+        "boosts": {
+            "ranged": "20",
+            "ranged_strength": "23",
+            "defence": "25"
+        }
+    },
+    {
+        "name": "Augury",
+        "image": "Augury.png",
+        "categories": [
+            "defensive",
+            "offensive-attack",
+            "offensive-strength",
+            "offensive-ranged",
+            "offensive-magic"
+        ],
+        "boosts": {
+            "magic": "25",
+            "defence": "25"
+        }
+    }
+]

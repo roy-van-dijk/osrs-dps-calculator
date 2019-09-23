@@ -1,0 +1,36 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    height: 100%;
+
+    .stat {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-image: url(../../../assets/icons/skill_background.png);
+        background-size: 100% 100%;
+        padding: 10px;
+        color: #feff00;
+
+        .slash {
+            div {
+                margin: 0px auto;
+                transform: rotate(45deg);
+                width: 3px;
+                height: 100%;
+                background-color: black;
+            }
+        }
+        img {
+            height: 100%;
+            width: auto;
+        }
+        input {
+            max-width: 100%;
+            color: #feff00;
+            border-radius: 5px;
+
+            background-color: rgba(226, 219, 200, 0.5);
+        }
+    }
+}

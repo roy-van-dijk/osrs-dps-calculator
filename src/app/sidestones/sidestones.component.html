@@ -1,0 +1,16 @@
+<div class="sidestones-wrapper">
+    <div class="sidestones">
+        <button class="sidestone combat" routerLink="/combat-tab" routerLinkActive="active"><span class="combat"></span></button>
+        <button class="sidestone stats" routerLink="/stats-tab" routerLinkActive="active"><span class="stats"></span></button>
+        <button class="sidestone equipment" routerLink="/equipment-tab" routerLinkActive="active"><span class="equipment"></span></button>
+        <button class="sidestone prayer" routerLink="/prayer-tab" routerLinkActive="active"><span class="prayer"></span></button>
+        <button class="sidestone spellbook" routerLink="/spellbook-tab" routerLinkActive="active"><span class="spellbook"></span></button>
+    </div>
+    
+    <div class="sidestone-tab-wrapper">
+        <router-outlet></router-outlet>
+    </div>
+
+    
+</div>
+

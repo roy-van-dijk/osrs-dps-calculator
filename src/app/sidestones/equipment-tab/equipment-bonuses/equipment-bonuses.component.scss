@@ -1,0 +1,29 @@
+.equipment-bonuses {
+    color: #ce7e23;
+}
+.equipment-bonuses .bonus{
+    text-indent: 15px;
+    font-size: 22px;
+}
+.equipment-bonuses .bonus-title {
+    font-family: 'Runescape UF';
+    font-size: 26px;
+}
+.stab::before { content: "Stab: "; }
+.slash::before { content: "Slash: "; }
+.crush::before { content: "Crush: "; }
+.magic::before { content: "Magic: "; }
+.ranged::before { content: "Ranged: "; }
+.melee_strength::before { content: "Melee strength: "; }
+.ranged_strength::before { content: "Ranged strength: "; }
+.magic_damage::before { content: "Magic damage: "; }
+.magic_damage::after { content: "%"; }
+.prayer::before { content: "Prayer: " }
+.undead::before { content: "Undead: "; }
+.undead::after {content: "%" }
+.slayer::before { content: "Slayer: "; }
+.slayer::after { content: "%" }
+.dragon::before { content: "Dragon: " }
+.dragon::after { content: "%" }
+.demon::before { content: "Demon: " }
+.demon::after { content: "%" }

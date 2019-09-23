@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'RuneScape UF';
+    src: url('assets/fonts/RuneScape-UF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RuneScape chat';
+    src: url('assets/fonts/RuneScape-chat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &:focus {
+        outline: none;
+    }
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: #e2dbc8;
+    background-image: linear-gradient(#c5bca2, #e2dbc8);
+    font-family: 'RuneScape chat', sans-serif;
+}
+input {
+    display: block;
+    background-color: #e2dbc8;
+    font-size: 30px;
+    text-indent: 5px;
+    border: none;
+    font-family: 'Runescape UF';
+}

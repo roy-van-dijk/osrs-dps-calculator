@@ -1,0 +1,47 @@
+{
+    "Air rune": {
+        "image": "Air_rune.png"
+    },
+    "Water rune": {
+        "image": "Water_rune.png"
+    },
+    "Earth rune": {
+        "image": "Earth_rune.png"
+    },
+    "Fire rune": {
+        "image": "Fire_rune.png"
+    },
+    "Mind rune": {
+        "image": "Mind_rune.png"
+    },
+    "Chaos rune": {
+        "image": "Chaos_rune.png"
+    },
+    "Death rune": {
+        "image": "Death_rune.png"
+    },
+    "Blood rune": {
+        "image": "Blood_rune.png"
+    },
+    "Soul rune": {
+        "image": "Soul_rune.png"
+    },
+    "Wrath rune": {
+        "image": "Wrath_rune.png"
+    },
+    "Saradomin staff": {
+        "image": "Saradomin_staff.png"
+    },
+    "Guthix staff": {
+        "image": "Guthix_staff.png"
+    },
+    "Zamorak staff": {
+        "image": "Zamorak_staff.png"
+    },
+    "Iban's staff": {
+        "image": "Ibans_staff.png"
+    },
+    "Slayer's staff": {
+        "image": "Slayers_staff.png"
+    }
+}

@@ -1,0 +1,18 @@
+
+<div id="dropdown-selector" [ngClass]="{'open' : opened}">
+    <div class="search-box">
+        <input 
+            type="text" 
+            id="item-search"
+            placeholder="Search..."
+            autocomplete="off"
+            (keyup)="searchBoxKeyUp($event)"  
+            (keyup.enter)="selectCurrentDropdownItem()" 
+            (keyup.arrowup)="selectPrevDropdownItem()" 
+            (keyup.arrowdown)="selectNextDropdownItem()">
+    </div>
+    <div class="item" *ngFor="let item of shownItems" (click)="select(item)" [ngClass]="{'active': item === selectedItem}">
+        <span class="image" [ngStyle]="{'background-image': 'url(assets/items/' + item.image + ')'}"></span>
+        <span class="name">{{ item.name }}</span>
+    </div>
+</div>

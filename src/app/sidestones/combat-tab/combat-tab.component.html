@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <div class="weapon-text">
+        {{ equipmentService.gear.weapon_slot.name }}
+    </div>
+    <div class="combat-styles">
+        <button 
+            *ngFor="let combatStyle of objectKeys(availableCombatStyles)" 
+            [ngClass]="{'selected': equipmentService.selectedCombatStyle === availableCombatStyles[combatStyle]}"
+            (click)="selectCombatStyle(availableCombatStyles[combatStyle])"
+            class="combat-style">
+            <div class="combat-style-overlay"></div>
+            <img src="{{ availableCombatStyles[combatStyle].image }}" >
+        </button>
+    </div>
+</div>

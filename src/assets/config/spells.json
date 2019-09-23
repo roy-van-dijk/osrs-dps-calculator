@@ -1,0 +1,764 @@
+{
+    "normals": [
+        {
+            "name": "Wind Strike",
+            "image": "Wind_Strike.png",
+            "element": "Wind",
+            "class": "Strike",
+            "damage": 2,
+            "level": 1,
+            "speed": 5,
+            "runes": {
+                "Air rune": 1,
+                "Mind rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Water Strike",
+            "image": "Water_Strike.png",
+            "element": "Water",
+            "class": "Strike",
+            "damage": 4,
+            "level": 5,
+            "speed": 5,
+            "runes": {
+                "Air rune": 1,
+                "Water rune": 1,
+                "Mind rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Earth Strike",
+            "image": "Earth_Strike.png",
+            "element": "Earth",
+            "class": "Strike",
+            "damage": 6,
+            "level": 9,
+            "speed": 5,
+            "runes": {
+                "Air rune": 1,
+                "Earth rune": 2,
+                "Mind rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Fire Strike",
+            "image": "Fire_Strike.png",
+            "element": "Fire",
+            "class": "Strike",
+            "damage": 8,
+            "level": 13,
+            "speed": 5,
+            "runes": {
+                "Air rune": 2,
+                "Earth rune": 3,
+                "Mind rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Wind Bolt",
+            "image": "Wind_Bolt.png",
+            "element": "Wind",
+            "class": "Bolt",
+            "damage": 9,
+            "level": 17,
+            "speed": 5,
+            "runes": {
+                "Air rune": 2,
+                "Chaos rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Water Bolt",
+            "image": "Water_Bolt.png",
+            "element": "Water",
+            "class": "Bolt",
+            "damage": 10,
+            "level": 23,
+            "speed": 5,
+            "runes": {
+                "Air rune": 2,
+                "Water rune": 2,
+                "Chaos rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Earth Bolt",
+            "image": "Earth_Bolt.png",
+            "element": "Earth",
+            "class": "Bolt",
+            "damage": 11,
+            "level": 29,
+            "speed": 5,
+            "runes": {
+                "Air rune": 3,
+                "Earth rune": 1,
+                "Chaos rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Fire Bolt",
+            "image": "Fire_Bolt.png",
+            "element": "Fire",
+            "class": "Bolt",
+            "damage": 12,
+            "level": 35,
+            "speed": 5,
+            "runes": {
+                "Air rune": 3,
+                "Fire rune": 4,
+                "Chaos rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Wind Blast",
+            "image": "Wind_Blast.png",
+            "element": "Wind",
+            "class": "Blast",
+            "damage": 13,
+            "level": 41,
+            "speed": 5,
+            "runes": {
+                "Air rune": 3,
+                "Death rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Water Blast",
+            "image": "Water_Blast.png",
+            "element": "Water",
+            "class": "Blast",
+            "damage": 14,
+            "level": 47,
+            "speed": 5,
+            "runes": {
+                "Air rune": 3,
+                "Water rune": 3,
+                "Death rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Earth Blast",
+            "image": "Earth_Blast.png",
+            "element": "Earth",
+            "class": "Blast",
+            "damage": 15,
+            "level": 53,
+            "speed": 5,
+            "runes": {
+                "Air rune": 3,
+                "Earth rune": 4,
+                "Death rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Fire Blast",
+            "image": "Fire_Blast.png",
+            "element": "Fire",
+            "class": "Blast",
+            "damage": 16,
+            "level": 59,
+            "speed": 5,
+            "runes": {
+                "Air rune": 4,
+                "Fire rune": 5,
+                "Death rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Wind Wave",
+            "image": "Wind_Wave.png",
+            "element": "Wind",
+            "class": "Wave",
+            "damage": 17,
+            "level": 62,
+            "speed": 5,
+            "runes": {
+                "Air rune": 5,
+                "Blood rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Water Wave",
+            "image": "Water_Wave.png",
+            "element": "Water",
+            "class": "Wave",
+            "damage": 18,
+            "level": 65,
+            "speed": 5,
+            "runes": {
+                "Air rune": 5,
+                "Water rune": 7,
+                "Blood rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Earth Wave",
+            "image": "Earth_Wave.png",
+            "element": "Earth",
+            "class": "Wave",
+            "damage": 19,
+            "level": 70,
+            "speed": 5,
+            "runes": {
+                "Air rune": 5,
+                "Earth rune": 7,
+                "Blood rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Fire Wave",
+            "image": "Fire_Wave.png",
+            "element": "Fire",
+            "class": "Wave",
+            "damage": 20,
+            "level": 75,
+            "speed": 5,
+            "runes": {
+                "Air rune": 5,
+                "Fire rune": 7,
+                "Blood rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Wind Surge",
+            "image": "Wind_Surge.png",
+            "element": "Wind",
+            "class": "Surge",
+            "damage": 21,
+            "level": 81,
+            "speed": 5,
+            "runes": {
+                "Air rune": 7,
+                "Wrath rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Water Surge",
+            "image": "Water_Surge.png",
+            "element": "Water",
+            "class": "Surge",
+            "damage": 22,
+            "level": 85,
+            "speed": 5,
+            "runes": {
+                "Air rune": 7,
+                "Water rune": 10,
+                "Wrath rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Earth Surge",
+            "image": "Earth_Surge.png",
+            "element": "Earth",
+            "class": "Surge",
+            "damage": 23,
+            "level": 90,
+            "speed": 5,
+            "runes": {
+                "Air rune": 7,
+                "Earth rune": 10,
+                "Wrath rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Fire Surge",
+            "image": "Fire_Surge.png",
+            "element": "Fire",
+            "class": "Surge",
+            "damage": 24,
+            "level": 95,
+            "speed": 5,
+            "runes": {
+                "Air rune": 7,
+                "Fire rune": 10,
+                "Wrath rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Magic Dart",
+            "image": "Magic_Dart.png",
+            "element": "None",
+            "class": "Dart",
+            "damage": 10,
+            "level": 50,
+            "speed": 5,
+            "runes": {
+                "Slayer's staff": 1,
+                "Mind rune": 4,
+                "Death rune": 1
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Slayer's staff",
+                    "Staff of the dead",
+                    "Staff of light",
+                    "Staff of balance"
+                ]
+            }
+        },
+        {
+            "name": "Saradomin Strike",
+            "image": "Saradomin_Strike.png",
+            "element": "God",
+            "class": "Other",
+            "damage": 20,
+            "level": 60,
+            "speed": 5,
+            "runes": {
+                "Saradomin staff": 1,
+                "Air rune": 4,
+                "Fire rune": 2,
+                "Blood rune": 2
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Saradomin staff",
+                    "Staff of light"
+                ]
+            }
+        },
+        {
+            "name": "Claws of Guthix",
+            "image": "Claws_of_Guthix.png",
+            "element": "God",
+            "class": "Other",
+            "damage": 20,
+            "level": 60,
+            "speed": 5,
+            "runes": {
+                "Guthix staff": 1,
+                "Air rune": 4,
+                "Fire rune": 1,
+                "Blood rune": 2
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Guthix staff",
+                    "Void knight mace",
+                    "Staff of balance"
+                ]
+            }
+        },
+        {
+            "name": "Flames of Zamorak",
+            "image": "Flames_of_Zamorak.png",
+            "element": "God",
+            "class": "Other",
+            "damage": 20,
+            "level": 60,
+            "speed": 5,
+            "runes": {
+                "Zamorak staff": 1,
+                "Air rune": 1,
+                "Fire rune": 4,
+                "Blood rune": 2
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Zamorak staff",
+                    "Staff of the dead"
+                ]
+            }
+        },
+        {
+            "name": "Magic Dart (e)",
+            "image": "Magic_Dart_e.png",
+            "element": "None",
+            "class": "Dart",
+            "damage": 13,
+            "level": 50,
+            "speed": 5,
+            "runes": {
+                "Slayer's staff": 1,
+                "Mind rune": 4,
+                "Death rune": 1
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Slayer's staff (e)"
+                ]
+            }
+        },
+        {
+            "name": "Saradomin Strike (charged)",
+            "image": "Saradomin_Strike_charged.png",
+            "element": "God",
+            "class": "Other",
+            "damage": 30,
+            "level": 80,
+            "speed": 5,
+            "runes": {
+                "Saradomin staff": 1,
+                "Air rune": 4,
+                "Fire rune": 2,
+                "Blood rune": 2
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Saradomin staff",
+                    "Staff of light"
+                ],
+                "cape_slot_items": [
+                    "Saradomin cape",
+                    "Imbued saradomin cape"
+                ]
+            }
+        },
+        {
+            "name": "Claws of Guthix (charged)",
+            "image": "Claws_of_Guthix_charged.png",
+            "element": "God",
+            "class": "Other",
+            "damage": 30,
+            "level": 80,
+            "speed": 5,
+            "runes": {
+                "Guthix staff": 1,
+                "Air rune": 4,
+                "Fire rune": 1,
+                "Blood rune": 2
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Guthix staff",
+                    "Void knight mace",
+                    "Staff of balance"
+                ],
+                "cape_slot_items": [
+                    "Guthix cape",
+                    "Imbued guthix cape"
+                ]
+            }
+        },
+        {
+            "name": "Flames of Zamorak (charged)",
+            "image": "Flames_of_Zamorak_charged.png",
+            "element": "God",
+            "class": "Other",
+            "damage": 30,
+            "level": 80,
+            "speed": 5,
+            "runes": {
+                "Zamorak staff": 1,
+                "Air rune": 1,
+                "Fire rune": 4,
+                "Blood rune": 2
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Zamorak staff",
+                    "Staff of the dead"
+                ],
+                "cape_slot_items": [
+                    "Zamorak cape",
+                    "Imbued zamorak cape"
+                ]
+            }
+        },
+        {
+            "name": "Crumble Undead",
+            "image": "Crumble_Undead.png",
+            "element": "None",
+            "class": "Other",
+            "damage": 15,
+            "level": 39,
+            "speed": 5,
+            "runes": {
+                "Air rune": 2,
+                "Earth rune": 2,
+                "Chaos rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Iban Blast",
+            "image": "Iban_Blast.png",
+            "element": "None",
+            "class": "Other",
+            "damage": 25,
+            "level": 50,
+            "speed": 5,
+            "runes": {
+                "Iban's staff": 1,
+                "Fire rune": 5,
+                "Death rune": 1
+            },
+            "requires": {
+                "weapon_slot_items": [
+                    "Iban's staff",
+                    "Iban's staff (u)"
+                ]
+            }
+        }
+    ],
+    "ancients": [
+        {
+            "name": "Smoke Rush",
+            "image": "Smoke_Rush.png",
+            "element": "Smoke",
+            "class": "Rush",
+            "damage": 14,
+            "level": 50,
+            "speed": 5,
+            "runes": {
+                "Air rune": 1,
+                "Fire rune": 1,
+                "Chaos rune": 2,
+                "Death rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Shadow Rush",
+            "image": "Shadow_Rush.png",
+            "element": "Shadow",
+            "class": "Rush",
+            "damage": 15,
+            "level": 52,
+            "speed": 5,
+            "runes": {
+                "Air rune": 1,
+                "Chaos rune": 2,
+                "Death rune": 2,
+                "Soul rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Blood Rush",
+            "image": "Blood_Rush.png",
+            "element": "Blood",
+            "class": "Rush",
+            "damage": 16,
+            "level": 56,
+            "speed": 5,
+            "runes": {
+                "Chaos rune": 2,
+                "Death rune": 2,
+                "Blood rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Ice Rush",
+            "image": "Ice_Rush.png",
+            "element": "Ice",
+            "class": "Rush",
+            "damage": 17,
+            "level": 58,
+            "speed": 5,
+            "runes": {
+                "Water rune": 2,
+                "Chaos rune": 2,
+                "Death rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Smoke Burst",
+            "image": "Smoke_Burst.png",
+            "element": "Smoke",
+            "class": "Burst",
+            "damage": 18,
+            "level": 62,
+            "speed": 5,
+            "runes": {
+                "Air rune": 2,
+                "Fire rune": 2,
+                "Chaos rune": 4,
+                "Death rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Shadow Burst",
+            "image": "Shadow_Burst.png",
+            "element": "Shadow",
+            "class": "Burst",
+            "damage": 19,
+            "level": 64,
+            "speed": 5,
+            "runes": {
+                "Air rune": 1,
+                "Chaos rune": 4,
+                "Death rune": 2,
+                "Soul rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Blood Burst",
+            "image": "Blood_Burst.png",
+            "element": "Blood",
+            "class": "Burst",
+            "damage": 21,
+            "level": 68,
+            "speed": 5,
+            "runes": {
+                "Chaos rune": 4,
+                "Death rune": 2,
+                "Blood rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Ice Burst",
+            "image": "Ice_Burst.png",
+            "element": "Ice",
+            "class": "Burst",
+            "damage": 21,
+            "level": 70,
+            "speed": 5,
+            "runes": {
+                "Water rune": 4,
+                "Chaos rune": 4,
+                "Death rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Smoke Blitz",
+            "image": "Smoke_Blitz.png",
+            "element": "Smoke",
+            "class": "Blitz",
+            "damage": 23,
+            "level": 74,
+            "speed": 5,
+            "runes": {
+                "Air rune": 2,
+                "Fire rune": 2,
+                "Death rune": 2,
+                "Blood rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Shadow Blitz",
+            "image": "Shadow_Blitz.png",
+            "element": "Shadow",
+            "class": "Blitz",
+            "damage": 24,
+            "level": 76,
+            "speed": 5,
+            "runes": {
+                "Air rune": 2,
+                "Death rune": 2,
+                "Blood rune": 2,
+                "Soul rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Blood Blitz",
+            "image": "Blood_Blitz.png",
+            "element": "Blood",
+            "class": "Blitz",
+            "damage": 25,
+            "level": 80,
+            "speed": 5,
+            "runes": {
+                "Death rune": 2,
+                "Blood rune": 4
+            },
+            "requires": {}
+        },
+        {
+            "name": "Ice Blitz",
+            "image": "Ice_Blitz.png",
+            "element": "Ice",
+            "class": "Blitz",
+            "damage": 26,
+            "level": 82,
+            "speed": 5,
+            "runes": {
+                "Water rune": 3,
+                "Death rune": 2,
+                "Blood rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Smoke Barrage",
+            "image": "Smoke_Barrage.png",
+            "element": "Smoke",
+            "class": "Barrage",
+            "damage": 27,
+            "level": 86,
+            "speed": 5,
+            "runes": {
+                "Air rune": 4,
+                "Fire rune": 4,
+                "Death rune": 4,
+                "Blood rune": 2
+            },
+            "requires": {}
+        },
+        {
+            "name": "Shadow Barrage",
+            "image": "Shadow_Barrage.png",
+            "element": "Shadow",
+            "class": "Barrage",
+            "damage": 28,
+            "level": 88,
+            "speed": 5,
+            "runes": {
+                "Air rune": 4,
+                "Death rune": 4,
+                "Blood rune": 2,
+                "Soul rune": 3
+            },
+            "requires": {}
+        },
+        {
+            "name": "Blood Barrage",
+            "image": "Blood_Barrage.png",
+            "element": "Blood",
+            "class": "Barrage",
+            "damage": 29,
+            "level": 92,
+            "speed": 5,
+            "runes": {
+                "Death rune": 4,
+                "Blood rune": 4,
+                "Soul rune": 1
+            },
+            "requires": {}
+        },
+        {
+            "name": "Ice Barrage",
+            "image": "Ice_Barrage.png",
+            "element": "Ice",
+            "class": "Barrage",
+            "damage": 30,
+            "level": 94,
+            "speed": 5,
+            "runes": {
+                "Water rune": 6,
+                "Death rune": 4,
+                "Blood rune": 2
+            },
+            "requires": {}
+        }
+    ]
+}

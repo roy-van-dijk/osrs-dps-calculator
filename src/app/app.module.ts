@@ -12,6 +12,7 @@ import { EquipmentSelectorComponent } from './sidestones/equipment-tab/equipment
 import { EquipmentBonusesComponent } from './sidestones/equipment-tab/equipment-bonuses/equipment-bonuses.component';
 import { StatsTabComponent } from './sidestones/stats-tab/stats-tab.component';
 import { DropdownSelectorComponent } from './shared/dropdown-selector/dropdown-selector.component';
+import { ModalComponent } from './shared/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DropdownSelectorComponent } from './shared/dropdown-selector/dropdown-s
     EquipmentSelectorComponent,
     EquipmentBonusesComponent,
     StatsTabComponent,
-    DropdownSelectorComponent
+    DropdownSelectorComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

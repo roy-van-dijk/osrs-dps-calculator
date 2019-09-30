@@ -9,14 +9,19 @@ import { EventEmitter } from '@angular/core';
 export class DropdownSelectorComponent implements OnInit, AfterViewInit {
 
     @Input() opened = false;
+    @Input() wrapperSelector = null;
 
     @Output() itemClicked = new EventEmitter();
 
+    private wrapper;
     private items;
     public shownItems;
     private dropdown;
     private disabledKeys = ['ArrowDown', 'ArrowUp', 'Enter', 'Escape'];
     private selectedItem;
+
+    private posX = 0;
+    private posY = 0;
     
     constructor(private elem: ElementRef) { }
     
@@ -28,13 +33,26 @@ export class DropdownSelectorComponent implements OnInit, AfterViewInit {
     }
 
     private open(items, event) {
+        this.wrapper = document.querySelector(this.wrapperSelector);
+        this.setMousePos(event);
+        
         this.opened = true;
         let searchBox =  this.elem.nativeElement.querySelector('#item-search');
-        this.dropdown.style = 'position: absoute;' + 'left: ' + event.clientX + 'px; top: '  + event.clientY + 'px;';
+
+        this.dropdown.style = 'position: absoute;' + 'left: ' + this.posX + 'px; top: '  + this.posY + 'px;';
         searchBox.focus();
         this.items = items;
         this.shownItems = items;
         this.selectedItem = this.shownItems[0];
+    }
+
+    private setMousePos(event) {
+        this.posX = event.clientX;
+        this.posY = event.clientY;
+        if (this.wrapper !== null) {
+            this.posX -= this.wrapper.getBoundingClientRect().left;
+            this.posY -= this.wrapper.getBoundingClientRect().top;
+        }
     }
 
     private close() {

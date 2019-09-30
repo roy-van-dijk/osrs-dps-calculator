@@ -1,4 +1,17 @@
 <div class="selector-wrapper">
     <app-equipment-selector></app-equipment-selector>
+    
+    <div class="open-equipment-screen" (click)="modalOpen = true"></div>
+
 </div>
+
+<app-modal *ngIf="modalOpen" (closeEvent)="modalOpen = false" [title]="'Equip your character'">
+    <div class="modal-grid">
+        <app-equipment-selector></app-equipment-selector>
+        <div></div>
+        <div class="right">
+            <app-equipment-bonuses></app-equipment-bonuses>
+        </div> 
+    </div>
+</app-modal>
 

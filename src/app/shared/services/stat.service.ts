@@ -7,6 +7,7 @@ import stats from '../../../assets/config/stats.json';
 export class StatService {
 
     public stats = stats;
+    public boosts = [];
 
     constructor() {
     }

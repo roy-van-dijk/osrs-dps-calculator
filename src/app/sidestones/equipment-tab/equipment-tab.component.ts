@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 import { EquipmentService } from 'src/app/shared/services/equipment.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { EquipmentService } from 'src/app/shared/services/equipment.service';
 })
 export class EquipmentTabComponent implements OnInit {
     
-    constructor(private equipmentService: EquipmentService) { }
+    constructor(private equipmentService: EquipmentService, private elem: ElementRef) { }
     
     ngOnInit() {
         

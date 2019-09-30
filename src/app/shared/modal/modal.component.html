@@ -1,0 +1,11 @@
+<div class="modal">
+    <div class="inner">
+        <div class="title">
+            {{ title }}
+        </div>
+        <div (click)="close()" class="close">
+            x
+        </div>
+        <ng-content></ng-content>
+    </div>
+</div>

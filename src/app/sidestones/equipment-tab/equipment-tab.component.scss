@@ -2,3 +2,17 @@
     max-width: 250px;
     margin: 0px auto;
 }
+.open-equipment-screen {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../../../assets/icons/Equipment_Stats.png');
+    cursor: pointer;
+}
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

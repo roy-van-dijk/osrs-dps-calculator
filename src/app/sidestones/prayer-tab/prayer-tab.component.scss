@@ -8,8 +8,13 @@
         overflow: hidden;
         cursor: pointer;
         position: relative;
-        border-radius: 75px;
+        border-radius: 100px;
         margin: 0px auto;
+        transition: background-color 0.1s;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
 
         &.active .background {
             transform: scale(1);

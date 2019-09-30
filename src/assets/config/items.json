@@ -23,6 +23,28 @@
             "demon_bonus": 0
         },
         {
+            "name": "Neitiznot faceguard",
+            "image": "Neitiznot_faceguard.png",
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 36,
+            "slash_defence": 34,
+            "crush_defence": 38,
+            "magic_defence": 3,
+            "ranged_defence": 34,
+            "melee_strength": 6,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer_bonus": 3,
+            "undead_bonus": 0,
+            "slayer_bonus": 0,
+            "dragon_bonus": 0,
+            "demon_bonus": 0
+        },
+        {
             "name": "Serpentine helm",
             "image": "Serpentine_helm.png",
             "stab_attack": 0,

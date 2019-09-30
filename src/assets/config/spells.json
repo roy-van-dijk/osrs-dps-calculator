@@ -627,7 +627,7 @@
             "image": "Ice_Burst.png",
             "element": "Ice",
             "class": "Burst",
-            "damage": 21,
+            "damage": 22,
             "level": 70,
             "speed": 5,
             "runes": {

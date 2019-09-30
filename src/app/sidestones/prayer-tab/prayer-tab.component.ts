@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { PrayerService } from 'src/app/shared/services/prayer.service';
 
 @Component({
@@ -6,13 +6,17 @@ import { PrayerService } from 'src/app/shared/services/prayer.service';
     templateUrl: './prayer-tab.component.html',
     styleUrls: ['./prayer-tab.component.scss']
 })
-export class PrayerTabComponent implements OnInit {
+export class PrayerTabComponent implements OnInit, AfterViewInit {
 
     public objectKeys = Object.keys;
     
     constructor(public prayerService: PrayerService) { }
     
     ngOnInit() {
+    }
+
+    ngAfterViewInit() {
+        
     }
     
     private togglePrayer(selectedPrayer) {

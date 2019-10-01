@@ -1,37 +1,37 @@
 {
     "attack": {
-        "level": 1,
-        "boosted": 1,
+        "level": 99,
+        "boosted": 99,
         "image": "Attack_icon.png"
     },
     "strength": {
-        "level": 1,
-        "boosted": 1,
+        "level": 99,
+        "boosted": 99,
         "image": "Strength_icon.png"
     },
     "defence": {
-        "level": 1,
-        "boosted": 1,
+        "level": 99,
+        "boosted": 99,
         "image": "Defence_icon.png"
     },
     "ranged": {
-        "level": 1,
-        "boosted": 1,
+        "level": 99,
+        "boosted": 99,
         "image": "Ranged_icon.png"
     },
-    "prayer": {
-        "level": 1,
-        "boosted": 1,
-        "image": "Prayer_icon.png"
-    },
     "magic": {
-        "level": 1,
-        "boosted": 1,
+        "level": 99,
+        "boosted": 99,
         "image": "Magic_icon.png"
     },
+    "prayer": {
+        "level": 99,
+        "boosted": 99,
+        "image": "Prayer_icon.png"
+    },
     "hitpoints": {
-        "level": 1,
-        "boosted": 1,
+        "level": 99,
+        "boosted": 99,
         "image": "Hitpoints_icon.png"
     }
 }

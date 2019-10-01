@@ -1,6 +1,6 @@
 #dropdown-selector {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     z-index: 999;
     background-color: #5f5445;
     overflow: hidden;
@@ -24,9 +24,9 @@
         #item-search {
             display: block;
             background-color: #e2dbc8;
-            font-size: 30px;
+            font-size: 26px;
             text-indent: 5px;
-            color: #f38a2f;
+            color: gray;
             border: none;
             font-family: 'Runescape UF';
             width: 100%;
@@ -51,8 +51,8 @@
             text-shadow: 1px 1px 0px black;
             margin-left: 5px;
             display: inline-block;
-            font-size: 30px;
-            line-height: 30px;
+            font-size: 26px;
+            line-height: 26px;
             vertical-align: middle;
         }
         .image {
@@ -65,4 +65,23 @@
             vertical-align: middle;
         }
     }
+}
+.no-items {
+    font-family: 'Runescape UF';
+    color: #f38a2f;
+    font-size: 26px;
+    text-shadow: 1px 1px 0px black;
+    padding: 0px 5px;
+}
+.hidden {
+    display: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.3);
 }

@@ -10,12 +10,13 @@ export class DropdownSelectorComponent implements OnInit, AfterViewInit {
 
     @Input() opened = false;
     @Input() wrapperSelector = null;
+    @Input() imagePath = 'assets/';
 
     @Output() itemClicked = new EventEmitter();
 
     private wrapper;
     private items;
-    public shownItems;
+    public shownItems = [];
     private dropdown;
     private disabledKeys = ['ArrowDown', 'ArrowUp', 'Enter', 'Escape'];
     private selectedItem;

@@ -24,7 +24,9 @@ export class StatsTabComponent implements OnInit {
     }
 
     public openDropdown(boostType, event) {
-        this.selectableItems = this.statService.boosts[boostType];
+        this.selectableItems = this.statService.boosts.filter((boost) => {
+            return boost.boosts.hasOwnProperty(boostType);
+        });
         if (this.selectedBoostType === boostType) {
             this.dropdown.opened = !this.dropdown.opened;
         } else {
@@ -34,6 +36,6 @@ export class StatsTabComponent implements OnInit {
     }
     
     public useBoost(boost) {
-        console.log(boost);
+        this.statService.boost(boost, this.selectedBoostType);
     }
 }

@@ -7,11 +7,15 @@
             <input type="text" class="current" size="3" [value]="statService.stats[stat].level">
         </div>
         <div class="boost-selector">
-            <button class="image" (click)="openDropdown(statService.stats[stat].name, $event)"></button>
+            <button 
+                class="image" 
+                (click)="openDropdown(stat, $event)"
+                [ngStyle]="{'background-image': 'url(../../assets/boosts/' + statService.activeBoosts[stat].image + ')'}"></button>
         </div>
     </div>
 </div>
 
 <app-dropdown-selector
+    [imagePath]="'/assets/boosts/'"
     (itemClicked)="useBoost($event)">
 </app-dropdown-selector>

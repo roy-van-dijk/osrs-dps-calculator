@@ -11,8 +11,11 @@
             (keyup.arrowup)="selectPrevDropdownItem()" 
             (keyup.arrowdown)="selectNextDropdownItem()">
     </div>
+    <div class="no-items" [ngClass]="{'hidden': shownItems.length !== 0}">
+        No items to show.
+    </div>
     <div class="item" *ngFor="let item of shownItems" (click)="select(item)" [ngClass]="{'active': item === selectedItem}">
-        <span class="image" [ngStyle]="{'background-image': 'url(assets/items/' + item.image + ')'}"></span>
+        <span class="image" [ngStyle]="{'background-image': 'url(' + imagePath + item.image + ')'}"></span>
         <span class="name">{{ item.name }}</span>
     </div>
 </div>

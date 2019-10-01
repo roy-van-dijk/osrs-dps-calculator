@@ -30,7 +30,9 @@ export class StatService {
 
     private recalculateStats() {
         Object.keys(this.activeBoosts).forEach((stat) => {
-            if (this.activeBoosts[stat] !== this.boosts[0]) {
+            if (this.activeBoosts[stat] === this.boosts[0]) {
+                this.stats[stat].boosted = this.stats[stat].level;
+            } else {
                 let boost = this.activeBoosts[stat].boosts[stat];
                 this.stats[stat].boosted = Math.floor(this.stats[stat].level * boost.modifier) + boost.base;
             }

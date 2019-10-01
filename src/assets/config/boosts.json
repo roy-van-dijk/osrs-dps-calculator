@@ -3,6 +3,34 @@
         "name": "None",
         "image": "Vial.png",
         "boosts": {
+            "attack": {
+                "base": 0,
+                "modifier": 1
+            },
+            "strength": {
+                "base": 0,
+                "modifier": 1
+            },
+            "defence": {
+                "base": 0,
+                "modifier": 1
+            },
+            "ranged": {
+                "base": 0,
+                "modifier": 1
+            },
+            "magic": {
+                "base": 0,
+                "modifier": 1
+            },
+            "prayer": {
+                "base": 0,
+                "modifier": 1
+            },
+            "hitpoints": {
+                "base": 0,
+                "modifier": 1
+            }
         }
     },
     {

@@ -6,7 +6,7 @@
             "defensive"
         ],
         "boosts": {
-            "defence": 5
+            "defence": 1.05
         }
     },
     {
@@ -16,7 +16,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "strength": 5
+            "strength": 1.05
         }
     },
     {
@@ -26,7 +26,7 @@
             "offensive-attack"
         ],
         "boosts": {
-            "attack": 5
+            "attack": 1.05
         }
     },
     {
@@ -38,7 +38,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "ranged": 5
+            "ranged": 1.05
         }
     },
     {
@@ -50,7 +50,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "magic": 5
+            "magic": 1.05
         }
     },
     {
@@ -60,7 +60,7 @@
             "defensive"
         ],
         "boosts": {
-            "defence": 10
+            "defence": 1.1
         }
     },
     {
@@ -70,7 +70,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "strength": 10
+            "strength": 1.1
         }
     },
     {
@@ -80,7 +80,7 @@
             "offensive-attack"
         ],
         "boosts": {
-            "attack": 10
+            "attack": 1.1
         }
     },
     {
@@ -116,7 +116,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "ranged": 10
+            "ranged": 1.1
         }
     },
     {
@@ -128,7 +128,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "magic": 10
+            "magic": 1.1
         }
     },
     {
@@ -138,7 +138,7 @@
             "defensive"
         ],
         "boosts": {
-            "defence": 15
+            "defence": 1.15
         }
     },
     {
@@ -148,7 +148,7 @@
              "offensive-strength"
         ],
         "boosts": {
-            "strength": 15
+            "strength": 1.15
         }
     },
     {
@@ -158,7 +158,7 @@
             "offensive-attack"
         ],
         "boosts": {
-            "attack": "15"
+            "attack": 1.15
         }
     },
     {
@@ -194,7 +194,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "ranged": "15"
+            "ranged": 1.15
         }
     },
     {
@@ -206,7 +206,7 @@
             "offensive-strength"
         ],
         "boosts": {
-            "magic": "15"
+            "magic": 1.15
         }
     },
     {
@@ -252,9 +252,9 @@
             "offensive-magic"
         ],
         "boosts": {
-            "attack": "15",
-            "strength": "18",
-            "defence": "20"
+            "attack": 1.15,
+            "strength": 1.18,
+            "defence": 1.2
         }
     },
     {
@@ -268,9 +268,9 @@
             "offensive-magic"
         ],
         "boosts": {
-            "attack": "20",
-            "strength": "23",
-            "defence": "25"
+            "attack": 1.2,
+            "strength": 1.23,
+            "defence": 1.25
         }
     },
     {
@@ -284,9 +284,9 @@
             "offensive-magic"
         ],
         "boosts": {
-            "ranged": "20",
-            "ranged_strength": "23",
-            "defence": "25"
+            "ranged": 1.2,
+            "ranged_strength": 1.23,
+            "defence": 1.25
         }
     },
     {
@@ -300,8 +300,8 @@
             "offensive-magic"
         ],
         "boosts": {
-            "magic": "25",
-            "defence": "25"
+            "magic": 1.25,
+            "defence": 1.25
         }
     }
 ]

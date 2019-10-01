@@ -13,6 +13,10 @@ import { EquipmentBonusesComponent } from './sidestones/equipment-tab/equipment-
 import { StatsTabComponent } from './sidestones/stats-tab/stats-tab.component';
 import { DropdownSelectorComponent } from './shared/dropdown-selector/dropdown-selector.component';
 import { ModalComponent } from './shared/modal/modal.component';
+import { CalculationResultsComponent } from './calculation-results/calculation-results.component';
+import { LoadoutComponent } from './loadout/loadout.component';
+import { CountUpModule } from 'countup.js-angular2';
+import { MaxHitService } from './shared/services/max-hit.service';
 
 @NgModule({
   declarations: [
@@ -26,13 +30,18 @@ import { ModalComponent } from './shared/modal/modal.component';
     EquipmentBonusesComponent,
     StatsTabComponent,
     DropdownSelectorComponent,
-    ModalComponent
+    ModalComponent,
+    CalculationResultsComponent,
+    LoadoutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CountUpModule
   ],
-  providers: [],
+  providers: [
+    MaxHitService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Injector } from '@angular/core';
 import items from '../../../assets/config/items.json';
 import weaponTypes from '../../../assets/config/weapon_types.json';
 
@@ -44,7 +44,11 @@ export class EquipmentService {
         'demon_bonus': 0
     };
     
-    constructor() { }
+    constructor() {
+        let weaponType = weaponTypes[this.gear.weapon_slot.weapon_category];
+        this.selectedCombatStyle = weaponType[Object.keys(weaponType)[0]];
+    }
+
     
     ngOnInit() {
         

@@ -25,7 +25,11 @@ export class StatService {
 
     public boost(boost, boostType) {
         Object.keys(boost.boosts).forEach((stat) => {
-            this.activeBoosts[stat] = boost;
+            if (boost === boosts[0]) {
+                this.activeBoosts[boostType] = boost;
+            } else {
+                this.activeBoosts[stat] = boost;
+            }
         });
         this.recalculateStats();
     }

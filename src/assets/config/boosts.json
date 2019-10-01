@@ -34,6 +34,38 @@
         }
     },
     {
+        "name": "Super combat",
+        "image": "Super_combat_potion_4.png",
+        "boosts": {
+            "attack": {
+                "base": 5,
+                "modifier": 1.15
+            },
+            "strength": {
+                "base": 5,
+                "modifier": 1.15
+            },
+            "defence": {
+                "base": 5,
+                "modifier": 1.15
+            }
+        }
+    },
+    {
+        "name": "Combat potion",
+        "image": "Combat_potion_4.png",
+        "boosts": {
+            "attack": {
+                "base": 3,
+                "modifier": 1.1
+            },
+            "strength": {
+                "base": 3,
+                "modifier": 1.1
+            }
+        }
+    },
+    {
         "name": "Super attack",
         "image": "Super_attack_4.png",
         "boosts": {
@@ -78,7 +110,7 @@
         "image": "Super_defence_4.png",
         "boosts": {
             "defence": {
-                "base": 5,
+                "base": 3,
                 "modifier": 1.15
             }
         }
@@ -90,6 +122,20 @@
             "defence": {
                 "base": 3,
                 "modifier": 1.1
+            }
+        }
+    },
+    {
+        "name": "Bastion potion",
+        "image": "Bastion_potion_4.png",
+        "boosts": {
+            "ranged": {
+                "base": 4,
+                "modifier": 1.1
+            },
+            "defence": {
+                "base": 5,
+                "modifier": 1.15
             }
         }
     },
@@ -110,6 +156,20 @@
             "magic": {
                 "base": 1,
                 "modifier": 1.1
+            }
+        }
+    },
+    {
+        "name": "Battlemage potion",
+        "image": "Battlemage_potion_4.png",
+        "boosts": {
+            "magic": {
+                "base": 4,
+                "modifier": 1
+            },
+            "defence": {
+                "base": 5,
+                "modifier": 1.15
             }
         }
     },

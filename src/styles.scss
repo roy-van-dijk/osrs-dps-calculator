@@ -36,3 +36,14 @@ input {
     border: none;
     font-family: 'Runescape UF';
 }
+.pane {
+    background-image: linear-gradient(#756755, #5f5445);
+    padding: 10px;
+    border: 5px solid #a79377;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+}
+.rs {
+    font-family: 'Runescape UF';
+    color: #f38a2f;
+    text-shadow: 1px 1px 0px black;
+}

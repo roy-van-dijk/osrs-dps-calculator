@@ -1,0 +1,64 @@
+.opponent-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .name {
+        font-family: 'Runescape UF';
+        text-align: center;
+        color: #f38a2f;
+        text-shadow: 1px 1px 0px black;
+        font-size: 30px;
+    }
+    .image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        height: 125px;
+        cursor: pointer;
+    }
+    .bonuses-wrapper {
+
+        > * {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            // margin-top: 10px;
+
+            &:last-child {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+            .bonus-title {
+                grid-column: span 5;
+                text-align: center;
+                margin-bottom: 5px;
+                font-size: 18px;
+            }
+
+            .bonus, .stat {
+                margin: 0px auto;
+                width: 100%;
+                background-size: 25px auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+
+            .bonus img, .stat img {
+                margin: 0 auto;
+                display: block;
+                height: 25px;
+            }
+
+            .text {
+                margin-top: 5px;
+                color: white;
+                text-align: center;
+            }
+
+            .bonus ~ .text::before {
+                content: '+';
+            }
+
+        }
+    }
+}

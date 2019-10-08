@@ -1,0 +1,103 @@
+<div class="opponent-wrapper pane">
+    <div class="name">
+        {{ opponentService.selectedOpponent.name }}
+    </div>
+    <div class="image" (click)="openDropdown($event)" [ngStyle]="{'background-image': 'url(../../../assets/opponents/' + opponentService.selectedOpponent.image + ')'}">
+
+    </div>
+    <div class="bonuses-wrapper">
+        <div class="combat-stats">
+            <div class="bonus-title rs">Combat stats</div>
+            <div>
+                <div class="stat attack"><img src="../../assets/icons/Attack_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.stats.attack }}</div>
+            </div>
+            <div>
+                <div class="stat strength"><img src="../../assets/icons/Strength_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.stats.strength }}</div>
+            </div>
+            <div>
+                <div class="stat defence"><img src="../../assets/icons/Defence_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.stats.defence }}</div>
+            </div>
+            <div>
+                <div class="stat magic"><img src="../../assets/icons/Magic_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.stats.magic }}</div>
+            </div>
+            <div>
+                <div class="stat ranged"><img src="../../assets/icons/Ranged_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.stats.ranged }}</div>
+            </div>
+        </div>
+        <div class="attack-bonus">
+            <div class="bonus-title rs">Attack bonuses</div>
+            <div>
+                <div class="bonus stab"><img src="../../assets/icons/Stab_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.stab_attack }}</div>
+            </div>
+            <div>
+                <div class="bonus slash"><img src="../../assets/icons/Slash_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.slash_attack }}</div>
+            </div>
+            <div>
+                <div class="bonus crush"><img src="../../assets/icons/Crush_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.crush_attack }}</div>
+            </div>
+            <div>
+                <div class="bonus magic"><img src="../../assets/icons/Magic_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.magic_attack }}</div>
+            </div>
+            <div>
+                <div class="bonus ranged"><img src="../../assets/icons/Ranged_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.ranged_attack }}</div>
+            </div>
+        </div>
+        <div class="defence-bonus">
+            <div class="bonus-title rs">Defence bonuses</div>
+            <div>
+                <div class="bonus stab-defence"><img src="../../assets/icons/Stab_defence_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.stab_defence }}</div>
+            </div>
+            <div>
+                <div class="bonus stab-defence"><img src="../../assets/icons/Slash_defence_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.slash_defence }}</div>
+            </div>
+            <div>
+                <div class="bonus crush-defence"><img src="../../assets/icons/Crush_defence_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.crush_defence }}</div>
+            </div>
+            <div>
+                <div class="bonus magic-defence"><img src="../../assets/icons/Magic_defence_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.magic_defence }}</div>
+            </div>
+            <div>
+                <div class="bonus ranged-defence"><img src="../../assets/icons/Ranged_defence_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.ranged_defence }}</div>
+            </div>
+        </div>
+        <div class="other-bonus">
+            <div class="bonus-title rs">Other bonuses</div>
+            <div>
+                <div class="bonus accuracy"><img src="../../assets/icons/Attack_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.melee_accuracy }}</div>
+            </div>
+            <div>
+                <div class="bonus strength"><img src="../../assets/icons/Strength_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.melee_strength }}</div>
+            </div>
+            <div>
+                <div class="bonus ranged-strength"><img src="../../assets/icons/Ranged_Strength_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.ranged_strength }}</div>
+            </div>
+            <div>
+                <div class="bonus magic-damage"><img src="../../assets/icons/Magic_Damage_icon.png"></div>
+                <div class="text rs">{{ opponentService.selectedOpponent.bonuses.magic_damage }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-dropdown-selector
+    [imagePath]="'/assets/opponents/'"
+    (itemClicked)="selectOpponent($event)">
+</app-dropdown-selector>

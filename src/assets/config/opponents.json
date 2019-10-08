@@ -1,0 +1,549 @@
+[
+    {
+        "name": "None",
+        "image": "None.png",
+        "icon": "None_icon.png",
+        "combat_level": 1,
+        "hitpoints": 1,
+        "max_hit": 0,
+        "poison": false,
+        "venom": false,
+        "poison_immune": false,
+        "venom_immune": false,
+        "speed": 4,
+        "size": 1,
+        "classes": [],
+        "weakness": [],
+        "stats": {
+            "attack": 1,
+            "strength": 1,
+            "defence": 1,
+            "magic": 1,
+            "ranged": 1
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 0,
+            "slash_defence": 0,
+            "crush_defence": 0,
+            "magic_defence": 0,
+            "ranged_defence": 0,
+            "melee_accuracy": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Vorkath",
+        "image": "Vorkath.png",
+        "icon": "Vorkath_icon.png",
+        "combat_level": 732,
+        "hitpoints": 750,
+        "max_hit": 121,
+        "poison": false,
+        "venom": true,
+        "poison_immune": true,
+        "venom_immune": true,
+        "speed": 5,
+        "size": 5,
+        "classes": [
+            "dragon",
+            "undead"
+        ],
+        "weakness": [
+            "Stab",
+            "Ranged",
+            "Dragonbane",
+            "Salve amulet"
+        ],
+        "stats": {
+            "attack": 560,
+            "strength": 308,
+            "defence": 214,
+            "magic": 150,
+            "ranged": 308
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 150,
+            "ranged_attack": 78,
+            "stab_defence": 26,
+            "slash_defence": 108,
+            "crush_defence": 108,
+            "magic_defence": 240,
+            "ranged_defence": 26,
+            "melee_accuracy": 16,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "General Graardor",
+        "image": "General_Graardor.png",
+        "icon": "General_Graardor_icon.png",
+        "combat_level": 624,
+        "hitpoints": 255,
+        "max_hit": 60,
+        "poison": false,
+        "venom": false,
+        "poison_immune": true,
+        "venom_immune": true,
+        "speed": 6,
+        "size": 4,
+        "classes": [],
+        "weakness": [],
+        "stats": {
+            "attack": 280,
+            "strength": 350,
+            "defence": 250,
+            "magic": 80,
+            "ranged": 350
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 45,
+            "ranged_attack": 45,
+            "stab_defence": 75,
+            "slash_defence": 150,
+            "crush_defence": 150,
+            "magic_defence": 150,
+            "ranged_defence": 45,
+            "melee_accuracy": 0,
+            "melee_strength": 0,
+            "ranged_strength": 20,
+            "magic_damage": 20
+        }
+    },
+    {
+        "name": "Commander Zilyana",
+        "image": "Commander_Zilyana.png",
+        "icon": "Commander_Zilyana_icon.png",
+        "combat_level": 596,
+        "hitpoints": 255,
+        "max_hit": 27,
+        "poison": false,
+        "venom": false,
+        "poison_immune": true,
+        "venom_immune": true,
+        "speed": 2,
+        "size": 3,
+        "classes": [],
+        "weakness": [],
+        "stats": {
+            "attack": 280,
+            "strength": 196,
+            "defence": 300,
+            "magic": 300,
+            "ranged": 250
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 200,
+            "ranged_attack": 0,
+            "stab_defence": 100,
+            "slash_defence": 100,
+            "crush_defence": 100,
+            "magic_defence": 100,
+            "ranged_defence": 100,
+            "melee_accuracy": 195,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "K'ril Tsutsaroth",
+        "image": "Kril_Tsutsaroth.png",
+        "icon": "Kril_Tsutsaroth_icon.png",
+        "combat_level": 650,
+        "hitpoints": 255,
+        "max_hit": 49,
+        "poison": true,
+        "venom": false,
+        "poison_immune": true,
+        "venom_immune": true,
+        "speed": 6,
+        "size": 5,
+        "classes": [
+            "demon"
+        ],
+        "weakness": [
+            "Demonbane"
+        ],
+        "stats": {
+            "attack": 340,
+            "strength": 300,
+            "defence": 270,
+            "magic": 200,
+            "ranged": 1
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 80,
+            "slash_defence": 80,
+            "crush_defence": 80,
+            "magic_defence": 130,
+            "ranged_defence": 80,
+            "melee_accuracy": 160,
+            "melee_strength": 31,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Kree'arra",
+        "image": "Kreearra.png",
+        "icon": "Kreearra_icon.png",
+        "combat_level": 580,
+        "hitpoints": 255,
+        "max_hit": 69,
+        "poison": false,
+        "venom": false,
+        "poison_immune": true,
+        "venom_immune": true,
+        "speed": 3,
+        "size": 5,
+        "classes": [],
+        "weakness": [],
+        "stats": {
+            "attack": 300,
+            "strength": 200,
+            "defence": 260,
+            "magic": 200,
+            "ranged": 380
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 120,
+            "stab_defence": 180,
+            "slash_defence": 180,
+            "crush_defence": 180,
+            "magic_defence": 200,
+            "ranged_defence": 200,
+            "melee_accuracy": 136,
+            "melee_strength": 12,
+            "ranged_strength": 50,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Dagannoth Supreme",
+        "image": "Dagannoth_Supreme.png",
+        "icon": "Dagannoth_Supreme_icon.png",
+        "combat_level": 303,
+        "hitpoints": 255,
+        "max_hit": 30,
+        "poison": false,
+        "venom": false,
+        "poison_immune": false,
+        "venom_immune": true,
+        "speed": 4,
+        "size": 3,
+        "classes": [],
+        "weakness": [
+            "Melee"
+        ],
+        "stats": {
+            "attack": 255,
+            "strength": 255,
+            "defence": 128,
+            "magic": 255,
+            "ranged": 255
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 10,
+            "slash_defence": 10,
+            "crush_defence": 10,
+            "magic_defence": 255,
+            "ranged_defence": 550,
+            "melee_accuracy": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Dagannoth Rex",
+        "image": "Dagannoth_Rex.png",
+        "icon": "Dagannoth_Rex_icon.png",
+        "combat_level": 303,
+        "hitpoints": 255,
+        "max_hit": 26,
+        "poison": false,
+        "venom": false,
+        "poison_immune": false,
+        "venom_immune": true,
+        "speed": 4,
+        "size": 3,
+        "classes": [],
+        "weakness": [
+            "Magic"
+        ],
+        "stats": {
+            "attack": 255,
+            "strength": 255,
+            "defence": 255,
+            "magic": 0,
+            "ranged": 255
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 255,
+            "slash_defence": 255,
+            "crush_defence": 255,
+            "magic_defence": 10,
+            "ranged_defence": 255,
+            "melee_accuracy": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Dagannoth Prime",
+        "image": "Dagannoth_Prime.png",
+        "icon": "Dagannoth_Prime_icon.png",
+        "combat_level": 303,
+        "hitpoints": 255,
+        "max_hit": 50,
+        "poison": false,
+        "venom": false,
+        "poison_immune": false,
+        "venom_immune": true,
+        "speed": 4,
+        "size": 3,
+        "classes": [],
+        "weakness": [
+            "Ranged"
+        ],
+        "stats": {
+            "attack": 255,
+            "strength": 255,
+            "defence": 255,
+            "magic": 255,
+            "ranged": 0
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 255,
+            "slash_defence": 255,
+            "crush_defence": 255,
+            "magic_defence": 255,
+            "ranged_defence": 10,
+            "melee_accuracy": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Kalphite Queen (1)",
+        "image": "Kalphite_Queen_1.png",
+        "icon": "Kalphite_Queen_1_icon.png",
+        "combat_level": 333,
+        "hitpoints": 255,
+        "max_hit": 31,
+        "poison": false,
+        "venom": false,
+        "poison_immune": false,
+        "venom_immune": true,
+        "speed": 4,
+        "size": 4,
+        "classes": [
+            "kalphite"
+        ],
+        "weakness": [
+            "Keris",
+            "Crush"
+        ],
+        "stats": {
+            "attack": 300,
+            "strength": 300,
+            "defence": 300,
+            "magic": 150,
+            "ranged": 1
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 50,
+            "slash_defence": 50,
+            "crush_defence": 50,
+            "magic_defence": 100,
+            "ranged_defence": 100,
+            "melee_accuracy": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Kalphite Queen (2)",
+        "image": "Kalphite_Queen_2.png",
+        "icon": "Kalphite_Queen_2_icon.png",
+        "combat_level": 333,
+        "hitpoints": 255,
+        "max_hit": 31,
+        "poison": false,
+        "venom": false,
+        "poison_immune": false,
+        "venom_immune": true,
+        "speed": 4,
+        "size": 4,
+        "classes": [
+            "kalphite"
+        ],
+        "weakness": [
+            "Keris",
+            "Ranged"
+        ],
+        "stats": {
+            "attack": 300,
+            "strength": 300,
+            "defence": 300,
+            "magic": 150,
+            "ranged": 1
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 100,
+            "slash_defence": 100,
+            "crush_defence": 100,
+            "magic_defence": 10,
+            "ranged_defence": 10,
+            "melee_accuracy": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Corporeal Beast",
+        "image": "Corporeal_Beast.png",
+        "icon": "Corporeal_Beast.png",
+        "combat_level": 785,
+        "hitpoints": 2000,
+        "max_hit": 65,
+        "poison": false,
+        "venom": false,
+        "poison_immune": true,
+        "venom_immune": true,
+        "speed": 4,
+        "size": 5,
+        "classes": [
+            "kalphite"
+        ],
+        "weakness": [
+            "Stab",
+            "Spear",
+            "Halberd"
+        ],
+        "stats": {
+            "attack": 320,
+            "strength": 320,
+            "defence": 310,
+            "magic": 350,
+            "ranged": 150
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 0,
+            "stab_defence": 25,
+            "slash_defence": 200,
+            "crush_defence": 100,
+            "magic_defence": 150,
+            "ranged_defence": 230,
+            "melee_accuracy": 50,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0
+        }
+    },
+    {
+        "name": "Alchemical Hydra",
+        "image": "Alchemical_Hydra.png",
+        "icon": "Alchemical_Hydra_icon.png",
+        "combat_level": 426,
+        "hitpoints": 1100,
+        "max_hit": 26,
+        "poison": true,
+        "venom": false,
+        "poison_immune": true,
+        "venom_immune": true,
+        "speed": 6,
+        "size": 4,
+        "classes": [
+            "dragon"
+        ],
+        "weakness": [
+            "Stab",
+            "Ranged",
+            "Dragonbane"
+        ],
+        "stats": {
+            "attack": 100,
+            "strength": 100,
+            "defence": 100,
+            "magic": 260,
+            "ranged": 260
+        },
+        "bonuses": {
+            "stab_attack": 0,
+            "slash_attack": 0,
+            "crush_attack": 0,
+            "magic_attack": 0,
+            "ranged_attack": 100,
+            "stab_defence": 90,
+            "slash_defence": 90,
+            "crush_defence": 90,
+            "magic_defence": 298,
+            "ranged_defence": 90,
+            "melee_accuracy": 120,
+            "melee_strength": 43,
+            "ranged_strength": 40,
+            "magic_damage": 0
+        }
+    }
+]

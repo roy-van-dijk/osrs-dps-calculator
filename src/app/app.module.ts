@@ -17,6 +17,7 @@ import { CalculationResultsComponent } from './calculation-results/calculation-r
 import { LoadoutComponent } from './loadout/loadout.component';
 import { CountUpModule } from 'countup.js-angular2';
 import { MaxHitService } from './shared/services/max-hit.service';
+import { OpponentComponent } from './opponent/opponent.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MaxHitService } from './shared/services/max-hit.service';
     DropdownSelectorComponent,
     ModalComponent,
     CalculationResultsComponent,
-    LoadoutComponent
+    LoadoutComponent,
+    OpponentComponent
   ],
   imports: [
     BrowserModule,

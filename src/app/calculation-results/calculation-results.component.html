@@ -1,9 +1,9 @@
-<div class="results">
-    <div class="max-hit" [countUp]="calculationService.maxHit"></div>
+<div class="results pane">
+    <div class="max-hit" [countUp]="calculationService.maxHit" [ngClass]="{'blue': calculationService.maxHit === 0 }"></div>
     <div>Max hit</div>
 
     
-    <div class="spec-max-hit">{{ calculationService.specMaxHit }}</div>
+    <div class="spec-max-hit" [ngClass]="{'blue': calculationService.specMaxHit === 0 }">{{ calculationService.specMaxHit }}</div>
     <div>Spec max hit</div>
 
     

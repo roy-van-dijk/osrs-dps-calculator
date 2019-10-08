@@ -21,7 +21,6 @@ export class CalculationService implements OnInit {
     }
 
     public update() {
-        // this.maxHit = this.maxHitService.getMaxHit();
         setInterval(() => {
             this.maxHit = this.maxHitService.getMaxHit();
         }, 100);

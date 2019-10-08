@@ -56,7 +56,7 @@ export class DropdownSelectorComponent implements OnInit, AfterViewInit {
         }
     }
 
-    private close() {
+    public close() {
         this.opened = false;
         let searchBox = this.elem.nativeElement.querySelector('#item-search');
         searchBox.value = '';
